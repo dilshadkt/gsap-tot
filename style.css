@@ -1,0 +1,15 @@
+#box {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+body {
+  margin: 0;
+  background: #111;
+}
+#box2 {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
