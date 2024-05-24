@@ -1,15 +1,42 @@
-#box {
+/* #box {
   width: 200px;
   height: 200px;
   background: red;
-}
+} */
 
 body {
   margin: 0;
   background: #111;
+  color: white;
 }
-#box2 {
+/* #box2 {
   width: 200px;
   height: 200px;
   background: blue;
+} */
+
+#box {
+  width: "100%";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
 }
