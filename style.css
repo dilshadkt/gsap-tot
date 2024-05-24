@@ -1,21 +1,21 @@
-/* #box {
+/* /* #box {
   width: 200px;
   height: 200px;
   background: red;
 } */
 
-body {
+/* body {
   margin: 0;
   background: #111;
   color: white;
-}
+} */
 /* #box2 {
   width: 200px;
   height: 200px;
   background: blue;
 } */
 
-#box {
+/* #box {
   width: "100%";
   display: flex;
   align-items: center;
@@ -39,4 +39,42 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 100px;
+} */
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: red;
+}
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background: blue;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(121, 121, 154);
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#page3 {
+  width: 100%;
+  height: 100vh;
+  background: rgb(73, 73, 101);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  width: 300px;
+  height: 300px;
+  background: white;
 }
