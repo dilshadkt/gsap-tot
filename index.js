@@ -27,32 +27,47 @@
 //   scale: 2,
 // });
 
-gsap.from("#page1 #box", {
-  opacity: 0,
-  rotate: 360,
-  delay: 0.25,
-  duration: 1,
-});
-gsap.from("h1", {
-  x: 300,
-  duration: 1,
-  scrollTrigger: {
-    trigger: "h1",
-    scroller: "body",
-    markers: true,
-    start: "top 300px",
-  },
-});
+// gsap.from("#page1 #box", {
+//   opacity: 0,
+//   rotate: 360,
+//   delay: 0.25,
+//   duration: 1,
+// });
+// gsap.from("h1", {
+//   x: 300,
+//   duration: 1,
+//   scrollTrigger: {
+//     trigger: "h1",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 300px",
+//   },
+// });
 
-gsap.from("#page3 #box", {
-  scale: 0,
-  rotate: 360,
+// gsap.from("#page3 #box", {
+//   scale: 0,
+//   rotate: 360,
+//   scrollTrigger: {
+//     trigger: "#page3 #box",
+//     scroller: "body",
+//     markers: true,
+//     start: "top 70%",
+//     end: "top 30%",
+//     scrub: 2,
+//     pin: true,
+//   },
+// });
+
+gsap.to("#page2 h1", {
+  transform: "translate(-230%)",
+
+  yoy: true,
   scrollTrigger: {
-    trigger: "#page3 #box",
+    trigger: "#page2",
     scroller: "body",
     markers: true,
-    start: "top 70%",
-    end: "top 30%",
+    start: "top 0%",
+    end: "end -100%",
     scrub: 2,
     pin: true,
   },
